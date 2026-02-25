@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Expense Tracker</h1>
+        </div>
+    
+
+    <div class="summary-container">
+        <div class="balance-div"><span>Your Balance</span> <span class="balance-span">$ 00.00</span></div>
+        <div class="income-div"><span>Income</span> <span class="income-span">$ 00.00</span></div>
+        <div class="expense-div"><span>Expense</span> <span class="expense-span">$ 00.00</span></div>
+    </div>
+
+    <div class="main-container">
+        <div class="transactions-container">
+            <h2 class="transactions-heading">Transactions</h2>
+            <ul class="transactions-list">
+                
+              
+
+              
+            
+            </ul>
+        </div>
+
+        <div class="add-transaction">
+            <h2>Add Transaction</h2>
+                <form action="" name="form" class="form">
+                    <label for="description-input">Description</label>
+                    <input type="text" id="description-input" class="description-input" placeholder="Enter description" required>
+                    <label for="amount-input" class="amount-label" >Amount</label>
+                    <input type="text" id="amount-input" class="amount-input" placeholder="Enter amount" inputmode="decimal"  required>
+                    <span>Use negative(-) for expenses</span>
+                    <button type="submit" class="button" id="button">Add Transaction</button>
+                </form>
+        </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
